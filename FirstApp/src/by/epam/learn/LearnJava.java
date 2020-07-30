@@ -50,5 +50,44 @@ public class LearnJava {
             counter = Math.round(Math.random() * 10);
             System.out.println("Counter = " + counter);
         }
+
+        System.out.println("------- Arrays ---------");
+
+        int [] array, array3; // so bad
+        String [] strings;
+        int array2[], array4[]; // so bad
+        int dataArray [] ; // so good
+
+        int [] arr = new int[24];
+        Integer [] arr2 = new Integer [24];
+
+        int a3[] = new int[] {1,2,3};
+
+        // multiArray
+        int [] [] multiArr = new int[5][5];
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                multiArr[i][j] = (int) Math.round(Math.random() * 10);
+                System.out.print(multiArr[i][j] + " ");
+            }
+            System.out.print('\n');
+        }
+
+        System.out.println("Array length = " + multiArr.length);
+
+        // test multiArray print
+        System.out.println("--- Print multi array method ---");
+        printMultiArray (multiArr);
+    }
+
+
+    // Print multi array to console
+    protected static void printMultiArray (final int MULTI_ARR[][]) {
+        for (int [] arrStr: MULTI_ARR) {
+            for (int elem: arrStr) {
+                System.out.print(elem + " ");
+            }
+            System.out.print('\n');
+        }
     }
 }
