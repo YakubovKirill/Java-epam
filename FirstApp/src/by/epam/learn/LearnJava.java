@@ -36,5 +36,19 @@ public class LearnJava {
                 break;
             }
         }
+
+        System.out.println("------- For loop ------- ");
+
+        for (int i = 0; i < 10; i++) {
+            var num = Math.round(Math.random() * 10 * i);
+            System.out.println("Your number is " + num);
+        }
+
+        System.out.println("------- While loop ---------");
+        long counter = 0;
+        while (counter != 5) {
+            counter = Math.round(Math.random() * 10);
+            System.out.println("Counter = " + counter);
+        }
     }
 }
