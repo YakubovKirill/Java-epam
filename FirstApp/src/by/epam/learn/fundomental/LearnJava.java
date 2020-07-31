@@ -1,4 +1,4 @@
-package by.epam.learn;
+package by.epam.learn.fundomental;
 
 import java.awt.image.AreaAveragingScaleFilter;
 
