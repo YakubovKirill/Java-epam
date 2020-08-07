@@ -21,10 +21,10 @@ public class Person implements Comparable<Person> {
 
     @Override
     public String toString() {
-        return '\n' + "Person{" +
+        return '\n' + "Person { " +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                '}';
+                " }";
     }
 
     @Override
