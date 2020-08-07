@@ -1,9 +1,6 @@
 package by.epam.learn;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +24,14 @@ public class Main {
         System.out.println(intList);
         intList.remove(intList.indexOf(4));
         System.out.println(intList);
+
+        Queue<String> queue = new LinkedList<>(){
+            {
+                this.offer("Kirill");
+                this.offer("Petr");
+                this.offer("Ivan");
+
+            }
+        };
     }
 }
