@@ -1,4 +1,4 @@
-package by.epam.learn;
+package by.epam.learn.fundomental;
 
 public class MainTask2 {
     public static void main(String[] args) {
