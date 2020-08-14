@@ -15,5 +15,12 @@ public class ExceptionsMain {
             System.out.println("All goes wrong or good? but it's final");
         }
         System.out.println(value);
+
+        String [] belarusinStudents = {"Kirill", "Ivan", "Petr", "Pablo"};
+        for (String student: belarusinStudents) {
+            if (student == "Pablo") {
+                throw new IllegalArgumentException("None belarusian student");
+            }
+        }
     }
 }
