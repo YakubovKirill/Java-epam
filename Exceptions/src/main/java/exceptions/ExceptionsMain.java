@@ -11,6 +11,8 @@ public class ExceptionsMain {
         } catch (NumberFormatException | ArithmeticException e) {
             result = -1;
             System.err.println(e);
+        } finally {
+            System.out.println("All goes wrong or good? but it's final");
         }
         System.out.println(value);
     }
