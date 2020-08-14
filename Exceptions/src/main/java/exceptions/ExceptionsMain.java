@@ -16,6 +16,18 @@ public class ExceptionsMain {
         }
         System.out.println(value);
 
+        int length = -1;
+        if (length >= 0) {
+            // do something
+        } else {
+            // fatal error
+        }
+
+        int length2 = -1;
+        assert (length2 >= 0);
+        System.out.println("Okey");
+
+
         String [] belarusinStudents = {"Kirill", "Ivan", "Petr", "Pablo"};
         for (String student: belarusinStudents) {
             if (student == "Pablo") {
